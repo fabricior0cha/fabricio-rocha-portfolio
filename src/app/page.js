@@ -251,6 +251,35 @@ export default function Home() {
           </div>
         </section>
 
+        <section className="mb-8">
+          <h2 className="text-2xl font-bold mb-6">Conquistas</h2>
+          <div className="mb-6">
+            <div className="flex items-start gap-4">
+              <div className="">
+                <Image
+                  src="/oftalmo.jpg"
+                  alt="Oftalmohack Logo"
+                  width={48}
+                  height={48}
+                  className="rounded-lg"
+                  unoptimized
+                />
+              </div>
+              <div className="flex-1">
+                <h3 className="text-xl font-semibold">Oftalmohack</h3>
+                <p className="text-gray-400 mb-1">2025</p>
+                <p className="text-gray-300">
+                  Em 2025, participei da equipe vencedora do Oftalmohack 2025,
+                  para atender o tema 'Novas formas de ensino para o médico do
+                  futuro' desenvolvemos a solução 'FellowMe', um super app com
+                  ferramentas e customizações para auxiliar o residente durante
+                  sua rotina com integrações e inteligência artificial.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Skills and Other Sections */}
         <div className="grid md:grid-cols-2 gap-8">
           {/* Left Column */}
